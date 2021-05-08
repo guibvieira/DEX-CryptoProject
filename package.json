@@ -1,0 +1,23 @@
+{
+  "name": "dex-cryptoproject",
+  "version": "1.0.0",
+  "description": "Project to create a Decentralized Exchange using Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guibvieira/DEX-CryptoProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guibvieira/DEX-CryptoProject/issues"
+  },
+  "homepage": "https://github.com/guibvieira/DEX-CryptoProject#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "truffle-assertions": "^0.9.2"
+  }
+}
