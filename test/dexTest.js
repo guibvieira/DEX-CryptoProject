@@ -58,6 +58,8 @@ contract("DEX", accounts => {
         for (let i = 0; i < orderbook.length - 1; i++) {
             assert(orderbook[i].price <= orderbook[i+1].price, "orderbook is not ordered")
         }
-    })
+    });
+
+    
     
 })

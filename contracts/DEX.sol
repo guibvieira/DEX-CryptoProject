@@ -88,4 +88,6 @@ contract DEX is Wallet {
         nextOrderId++;
 
     }
+
+    // createMarketOrder(0, web3.utils.fromUtf8("LINK"), 10)/s
 }
