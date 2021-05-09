@@ -73,13 +73,8 @@ contract DEX is Wallet {
             require(balances[msg.sender][ticker] >= amount, "Insuffient balance");
         }
         
-        uint orderBookSide;
-        if(side == Side.BUY){
-            orderBookSide = 1;
-        }
-        else{
-            orderBookSide = 0;
-        }
+        uint orderBookSide = side == Side.Buy ? 1 : 0;
+       
         Order[] storage orders = orderBook[ticker][orderBookSide];
 
         uint totalFilled = 0;
